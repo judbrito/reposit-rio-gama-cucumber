@@ -1,0 +1,117 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-11T12:26:14.697Z",
+        "line": 5,
+        "name": "login bem-sucedido credenciais válidas",
+        "description": "",
+        "id": "ação-de-login;login-bem-sucedido-credenciais-válidas",
+        "after": [
+          {
+            "result": {
+              "duration": 439634000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.imagens(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 5840153600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que o usuário navegue",
+            "match": {
+              "location": "StepsDefinition.queOUsuárioNavegue()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 4182598700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "digite  email e senha",
+            "match": {
+              "location": "StepsDefinition.digiteEmailESenha()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 3281906300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "seguida a mensagem com sucesso",
+            "match": {
+              "location": "StepsDefinition.seguidaAMensagemComSucesso()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-11T12:26:28.513Z",
+        "line": 10,
+        "name": "Logout bem-sucedido",
+        "description": "",
+        "id": "ação-de-login;logout-bem-sucedido",
+        "after": [
+          {
+            "result": {
+              "duration": 210929000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.imagens(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 1991636600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "clicar sair",
+            "match": {
+              "location": "StepsDefinition.clicarSair()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 236259600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "a mensagem exibida Saiu",
+            "match": {
+              "location": "StepsDefinition.aMensagemExibidaSaiu()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "ação de Login",
+    "description": "",
+    "id": "ação-de-login",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/SimplesLogin.feature",
+    "tags": []
+  }
+]
